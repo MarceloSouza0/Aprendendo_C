@@ -24,6 +24,17 @@
     <None Include="lista1" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="exercício1-2.c">
+      <Filter>Arquivos de Origem\Algoritmos 2\Lista 1</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Arquivos de Origem\Algoritmos 2</Filter>
+    </ClCompile>
     <ClCompile Include="exercicio1.c">
       <Filter>Arquivos de Origem\Algoritmos 2\Lista 1</Filter>
     </ClCompile>

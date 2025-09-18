@@ -22,7 +22,12 @@
     <None Include="lista1" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="exercício1-2.c" />
     <ClCompile Include="exercicio1.c" />
+    <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
