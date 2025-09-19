@@ -7,6 +7,6 @@
 
 
 int main() {
-	dois_ponteiros();
+	recursao_fatorial();
 	return 0;
 }

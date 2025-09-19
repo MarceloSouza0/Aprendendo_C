@@ -10,6 +10,9 @@ int struct_pessoas();
 int variavel_inteira();
 int ponteiro_endereco();
 int dois_ponteiros();
+int trocar_valores_variavel();
+int aprendendo_recursao();
+int recursao_fatorial();
 
 #endif 
 
