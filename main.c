@@ -7,6 +7,6 @@
 
 
 int main() {
-	variavel_inteira();
+	dois_ponteiros();
 	return 0;
 }

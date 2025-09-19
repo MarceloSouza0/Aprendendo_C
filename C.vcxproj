@@ -26,6 +26,8 @@
     <ClCompile Include="exercicio3.c" />
     <ClCompile Include="exercicio4.c" />
     <ClCompile Include="exercicio5.c" />
+    <ClCompile Include="exercicio6.c" />
+    <ClCompile Include="exercicio7.c" />
     <ClCompile Include="exercício10.c" />
     <ClCompile Include="exercicio9_%28fibonacci%29.c" />
     <ClCompile Include="main.c" />

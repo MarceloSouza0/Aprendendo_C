@@ -53,5 +53,11 @@
     <ClCompile Include="exercicio5.c">
       <Filter>Arquivos de Origem\Algoritmos 2\Lista 2</Filter>
     </ClCompile>
+    <ClCompile Include="exercicio6.c">
+      <Filter>Arquivos de Origem\Algoritmos 2\Lista 2</Filter>
+    </ClCompile>
+    <ClCompile Include="exercicio7.c">
+      <Filter>Arquivos de Origem\Algoritmos 2\Lista 2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
