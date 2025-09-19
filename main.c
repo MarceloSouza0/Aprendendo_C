@@ -7,6 +7,6 @@
 
 
 int main() {
-	fibonacci_iterativo();
+	variavel_inteira();
 	return 0;
 }

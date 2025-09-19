@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -22,8 +22,12 @@
     <None Include="lista1" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="exercício1-2.c" />
     <ClCompile Include="exercicio1.c" />
+    <ClCompile Include="exercicio3.c" />
+    <ClCompile Include="exercicio4.c" />
+    <ClCompile Include="exercicio5.c" />
+    <ClCompile Include="exercício10.c" />
+    <ClCompile Include="exercicio9_%28fibonacci%29.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>

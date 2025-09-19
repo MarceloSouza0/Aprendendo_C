@@ -3,6 +3,11 @@
 
 int fibonacci_recursivo();
 int fibonacci_iterativo();
+int numero_perfeito();
+int struct_pessoa();
+int struct_endereco();
+int struct_pessoas();
+int variavel_inteira();
 
 #endif 
 

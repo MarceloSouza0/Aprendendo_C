@@ -1,37 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "main.h"
+struct pessoa {
+    char nome[40];
+    int idade;
+    float altura;
+};
 
+int struct_pessoa() {
+    struct pessoa PESSOA;
 
-int fib_recursivo(int n) {
-	if (n == 0) return 0;
-	if (n == 1) return 1;
-	return fib_recursivo(n - 1) + fib_recursivo(n - 2);
-}
+    printf("Digite o seu nome: \n");
+    fgets(PESSOA.nome, 40, stdin);
 
+    printf("Digite a sua idade: \n");
+    scanf_s("%d", &PESSOA.idade);
 
-int fibonacci_recursivo() { // O(2^n)
-	int n = 15;
-	printf("Fibonacci (Recursivo): ");
-	for (int i = 0; i < n; i++) {
-		printf("%d", fib_recursivo(i));
-	}
+    // Exemplo de uso do campo altura
+    printf("Digite a sua altura: \n");
+    scanf_s("%f", &PESSOA.altura);
 
-	return 0;
-}
+    printf("\nNome: %sIdade: %d\nAltura: %.2f\n", PESSOA.nome, PESSOA.idade, PESSOA.altura);
 
-
-int fibonacci_iterativo() { // O(n)
-	int n = 15;
-    int a = 0, b = 1, c;
-
-    printf("Fibonacci (iterativo): ");
-    for (int i = 0; i < n; i++) {
-        printf("%d ", a);
-        c = a + b;
-        a = b;
-        b = c;
-    }
     return 0;
 }

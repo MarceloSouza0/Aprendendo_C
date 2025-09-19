@@ -19,6 +19,9 @@
     <Filter Include="Arquivos de Origem\Algoritmos 2\Lista 1">
       <UniqueIdentifier>{3ffe4137-1505-4625-805b-6bee83928a8e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Arquivos de Origem\Algoritmos 2\Lista 2">
+      <UniqueIdentifier>{982fbef0-6870-478f-a098-7b75013f0bc1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="lista1" />
@@ -29,14 +32,26 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="exercício1-2.c">
+    <ClCompile Include="exercício10.c">
       <Filter>Arquivos de Origem\Algoritmos 2\Lista 1</Filter>
     </ClCompile>
     <ClCompile Include="main.c">
       <Filter>Arquivos de Origem\Algoritmos 2</Filter>
     </ClCompile>
-    <ClCompile Include="exercicio1.c">
+    <ClCompile Include="exercicio9_%28fibonacci%29.c">
       <Filter>Arquivos de Origem\Algoritmos 2\Lista 1</Filter>
+    </ClCompile>
+    <ClCompile Include="exercicio1.c">
+      <Filter>Arquivos de Origem\Algoritmos 2\Lista 2</Filter>
+    </ClCompile>
+    <ClCompile Include="exercicio3.c">
+      <Filter>Arquivos de Origem\Algoritmos 2\Lista 2</Filter>
+    </ClCompile>
+    <ClCompile Include="exercicio4.c">
+      <Filter>Arquivos de Origem\Algoritmos 2\Lista 2</Filter>
+    </ClCompile>
+    <ClCompile Include="exercicio5.c">
+      <Filter>Arquivos de Origem\Algoritmos 2\Lista 2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
